@@ -4,12 +4,9 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -128,7 +125,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1L1X53Q-0EUP5mI4AdfwFKBpHxLKoQr0I/view?usp=sharing'
+              href='https://drive.google.com/file/d/1-92FnsFdUWAdIcoOQ_kpwahBirfhQGeV/view?usp=sharing'
               target='_blank'
             >
               Resume <BsFillPersonLinesFill size={30} />
