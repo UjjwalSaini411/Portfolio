@@ -16,7 +16,6 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        {/* <img src={Logo} alt='Logo Image' style={{ width: '200px' }} /> */}
         <h1><strong>Ujjwal Saini</strong> </h1>
       </div>
 
@@ -101,6 +100,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/ujjwal-saini411/'
               target='_blank'
+              rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -110,6 +110,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/UjjwalSaini411'
               target='_blank'
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -127,6 +128,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://drive.google.com/file/d/1-92FnsFdUWAdIcoOQ_kpwahBirfhQGeV/view?usp=sharing'
               target='_blank'
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
